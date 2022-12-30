@@ -5,7 +5,15 @@
 
     <style>
       /* Aplica estilos diferentes a la página cuando se carga en un dispositivo con un ancho de pantalla de 600 píxeles o menos */
-      @media (max-width: 600px) {
+      @media (max-width: 800px) {
+        .nav {
+            /* Convierte el elemento contenedor del menú en un contenedor flexible */
+        display: flex;
+            /* Centra los elementos del menú horizontalmente */
+        justify-content: center;
+            /* Centra los elementos del menú verticalmente */
+        align-items: center;
+        }
         .nav li {
           float: none;
         }
@@ -22,7 +30,8 @@
         .nav li {
           margin-bottom: 10px;
         }
-      }
+        }
+      
 
       body {
         background-color: antiquewhite;
