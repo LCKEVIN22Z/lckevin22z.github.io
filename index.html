@@ -1,6 +1,29 @@
 <html>
   <head>
+    <!-- Incluye el archivo CSS de un marco de diseño responsive, como Bootstrap o Foundation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+
     <style>
+      /* Aplica estilos diferentes a la página cuando se carga en un dispositivo con un ancho de pantalla de 600 píxeles o menos */
+      @media (max-width: 600px) {
+        .nav li {
+          float: none;
+        }
+
+        .nav a {
+          display: block;
+          text-align: center;
+        }
+
+        .center {
+          flex-direction: column;
+        }
+
+        .nav li {
+          margin-bottom: 10px;
+        }
+      }
+
       body {
         background-image: url('https://wallpapercrafter.com/sizes/2560x1440/31959-Christmas-New-Year-gifts-fir-tree-fireplace-decorations-4K.jpg');
         background-size: cover;
@@ -59,25 +82,6 @@
         align-items: center;
         height: calc(100vh - 50px);
       }
-
-      @media (max-width: 600px) {
-        .nav li {
-          float: none;
-        }
-
-        .nav a {
-          display: block;
-          text-align: center;
-        }
-
-        .center {
-          flex-direction: column;
-        }
-
-        .nav li {
-          margin-bottom: 10px;
-        }
-      }
     </style>
   </head>
   <body>
@@ -89,8 +93,8 @@
       </ul>
     </div>
     <div class="center">
-      <button class="button">Button 1</button>
-      <button class="button">Button 2</button>
+      <button class="button">Iniciar sesion</button>
+      <button class="button">Registrarse</button>
     </div>
   </body>
 </html>
