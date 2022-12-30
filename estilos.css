@@ -1,3 +1,17 @@
+@media (max-width: 600px) {
+    .nav {
+      /* Convierte el elemento contenedor del menú en un contenedor flexible */
+      display: flex;
+      /* Centra los elementos del menú horizontalmente */
+      justify-content: center;
+      /* Centra los elementos del menú verticalmente */
+      align-items: center;
+    }
+}
+
+
+
+
 body {
     background-color: antiquewhite;
   }
