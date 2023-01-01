@@ -7,8 +7,22 @@
       /* Centra los elementos del menú verticalmente */
       align-items: center;
     }
+    .nav ul {
+        display: flex;
+        /* Centra los elementos del menú horizontalmente */
+        justify-content: center;
+        /* Centra los elementos del menú verticalmente */
+        align-items: center;
+      }
+      
+      .nav li {
+        display: flex;
+        /* Centra los elementos del menú horizontalmente */
+        justify-content: center;
+        /* Centra los elementos del menú verticalmente */
+        align-items: center;
+      }
 }
-
 
 
 
@@ -20,7 +34,7 @@ body {
     background-color: purple;
     position: fixed;
     top: 0;
-    width: 100%;
+    width:max-content;
     z-index: 1;
   }
   
@@ -29,10 +43,12 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    width:auto;
   }
   
   .nav li {
     float: left;
+    width:auto;
   }
   
   .nav a {
