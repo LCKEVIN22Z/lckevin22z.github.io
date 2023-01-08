@@ -34,7 +34,7 @@ body {
     background-color: purple;
     position: fixed;
     top: 0;
-    width:max-content;
+    width:100%;
     z-index: 1;
   }
   
@@ -43,12 +43,12 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width:auto;
+    width:100%;
   }
   
   .nav li {
     float: left;
-    width:auto;
+    width:100%;
   }
   
   .nav a {
